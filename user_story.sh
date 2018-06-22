@@ -33,15 +33,11 @@ echo "
     </head>
     <body>
 
-      <h2>Everyday at 1:00 AM, new roles and new people !</h2>
-
       <div id=\"generated_list\">
         <p>
           $(generate_roles)
         </p>
       </div>
-
-      <h4>Please help me by adding more roles here: <pre>~von/public_html/user_story/add_roles.txt</pre> Thanks !</h4>
 
     </body>
   </html>
