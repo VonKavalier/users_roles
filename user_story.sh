@@ -1,9 +1,9 @@
 #!/bin/bash
 get_rnd_user(){
-  gshuf -n 1 users_list.txt
+  shuf -n 1 users_list.txt
 }
 get_rnd_role(){
-  gshuf -n 1 users_roles.txt
+  shuf -n 1 users_roles.txt
 }
 test_role(){
   roles=$1
