@@ -1,0 +1,33 @@
+html {
+  background: url(../feels/images/background.jpg) no-repeat center center fixed;
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color: white;
+  font-family: courier
+}
+
+a {
+  color: white;
+}
+
+#generated_list{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: .4em;
+  box-shadow: 10px 10px 23px -4px rgba(0,0,0,0.75);
+  width: 50em;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#generated_list p {
+  padding: 1em;
+  color: white;
+  line-height: 1.7em;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
